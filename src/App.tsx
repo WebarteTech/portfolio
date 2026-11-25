@@ -645,10 +645,10 @@ function App() {
 
               <a
                 className="contact-card"
-                href="mailto:webarte.tech@gmail.com"
+                href="mailto:contacto@webartetech.com"
               >
                 <span className="contact-label">EMAIL</span>
-                <strong>webarte.tech@gmail.com</strong>
+                <strong>contacto@webartetech.com</strong>
                 <span className="contact-arrow">↗</span>
               </a>
 
