@@ -1,0 +1,162 @@
+/*
+  Marca WebArte-Tech (25/11/2026)
+  Paleta tomada del logo: magenta #e0157f, celeste #22b8d6, verde #7cc51f.
+  Este archivo se carga después de App.css y solo reemplaza colores y el
+  isotipo (la mariposa) en lugar de la «W». Para volver atrás, alcanza con
+  quitar el import de ./marca.css en src/main.tsx.
+*/
+
+.portfolio {
+  background:
+    radial-gradient(circle at 80% 30%, rgba(224, 21, 127, 0.10), transparent 32%),
+    radial-gradient(circle at 15% 85%, rgba(34, 184, 214, 0.07), transparent 30%),
+    #0c0e14;
+}
+.eyebrow {
+  color: #ff5fa8;
+}
+.hero h1 span {
+  /* background-image (no el atajo background) para no pisar background-clip: text */
+  background-image: linear-gradient(90deg, #ff4fa3, #3fcbe6);
+}
+.button-primary {
+  background: #c8106f;
+  box-shadow: 0 10px 35px rgba(224, 21, 127, 0.22);
+}
+.button-primary:hover {
+  background: #e0157f;
+}
+.status-dot {
+  background: #9fe04a;
+  box-shadow: 0 0 10px rgba(124, 197, 31, 0.65);
+}
+.project-card:hover {
+  border-color: rgba(224, 21, 127, 0.32);
+  background: rgba(224, 21, 127, 0.05);
+}
+.project-icon {
+  border: 1px solid rgba(224, 21, 127, 0.18);
+  color: #ff6db0;
+}
+.glow-one {
+  background: rgba(224, 21, 127, 0.09);
+}
+.glow-two {
+  background: rgba(34, 184, 214, 0.06);
+}
+.chronolab-section {
+  background:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(124, 197, 31, 0.07),
+      transparent 25%
+    ),
+    #10131a;
+}
+.section-number,
+.platform-label,
+.image-label {
+  color: #8fd636;
+}
+.project-intro h2 span,
+.platform-intro h3 span {
+  color: #8fd636;
+}
+.mini-feature > span {
+  color: #8fd636;
+}
+.chronolab-summary span {
+  color: #8fd636;
+}
+.logicore-section {
+  background:
+    radial-gradient(
+      circle at 12% 18%,
+      rgba(34, 184, 214, 0.07),
+      transparent 25%
+    ),
+    #0c0f15;
+}
+.logicore-number,
+.logicore-step-number {
+  color: #22b8d6;
+}
+.logicore-mark {
+  border: 1px solid rgba(34, 184, 214, 0.22);
+  background:
+    linear-gradient(145deg, rgba(34, 184, 214, 0.2), rgba(17, 22, 35, 0.9));
+}
+.logicore-mark span {
+  color: #4fd0e8;
+}
+.logicore-intro h2 span,
+.logicore-step h3 span {
+  color: #22b8d6;
+}
+.logicore-points span::before {
+  background: #22b8d6;
+}
+.logicore-summary span {
+  color: #22b8d6;
+}
+.project-card-link:hover {
+  border-color: rgba(224, 21, 127, 0.35);
+}
+.about-number {
+  color: #ff4fa3;
+}
+.about-heading h2 span {
+  color: #ff4fa3;
+}
+.about-item > span {
+  color: #c8106f;
+}
+.about-focus span {
+  border: 1px solid rgba(224, 21, 127, 0.15);
+  background: rgba(224, 21, 127, 0.035);
+}
+.contact-section {
+  background:
+    radial-gradient(
+      circle at 70% 35%,
+      rgba(224, 21, 127, 0.08),
+      transparent 32%
+    ),
+    #080b10;
+}
+.contact-number {
+  color: #ff4fa3;
+}
+.contact-heading h2 span {
+  color: #ff4fa3;
+}
+.contact-card:hover {
+  border-color: rgba(224, 21, 127, 0.4);
+  background: rgba(224, 21, 127, 0.055);
+}
+.contact-label {
+  color: #c8106f;
+}
+.contact-arrow {
+  color: #ff4fa3;
+}
+.floating-top {
+  color: #ff4fa3;
+}
+.floating-top:hover {
+  border-color: rgba(224, 21, 127, 0.5);
+}
+
+/* Isotipo (mariposa) en lugar de la «W», en la barra superior y en el pie */
+.brand-mark,
+.contact-brand-mark {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 0;
+  background: url('/brand/isotipo.png') center / contain no-repeat;
+  box-shadow: none;
+  color: transparent;
+  font-size: 0;
+  filter: drop-shadow(0 0 14px rgba(224, 21, 127, 0.25));
+}
