@@ -160,3 +160,33 @@
   font-size: 0;
   filter: drop-shadow(0 0 14px rgba(224, 21, 127, 0.25));
 }
+
+/* Redes sociales en Contacto */
+.contact-redes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+}
+.contact-redes a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.025);
+  color: #dce1ea;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.contact-redes a:hover {
+  border-color: rgba(224, 21, 127, 0.45);
+  color: #ff4fa3;
+}
+.contact-redes svg {
+  width: 18px;
+  height: 18px;
+}

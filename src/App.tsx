@@ -651,6 +651,21 @@ function App() {
                 <strong>webarte.tech@gmail.com</strong>
                 <span className="contact-arrow">↗</span>
               </a>
+
+              <div className="contact-redes" aria-label="Redes sociales">
+                <a href="https://www.instagram.com/webarte_tech" target="_blank" rel="noreferrer">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><path d="M17.5 6.5h.01" /></svg>
+                  Instagram
+                </a>
+                <a href="https://www.facebook.com/webartetech" target="_blank" rel="noreferrer">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M15 3h-2.5A4.5 4.5 0 0 0 8 7.5V10H5v4h3v7h4v-7h3l1-4h-4V7.5A.5.5 0 0 1 12.5 7H15z" /></svg>
+                  Facebook
+                </a>
+                <a href="https://www.youtube.com/@WebArte-Tech" target="_blank" rel="noreferrer">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4" /><path d="M10 9l5 3-5 3z" /></svg>
+                  YouTube
+                </a>
+              </div>
             </div>
           </div>
 
